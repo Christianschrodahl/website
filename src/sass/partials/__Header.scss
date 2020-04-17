@@ -1,0 +1,25 @@
+header {
+  background: #1d2969;
+}
+.Header {
+  width: 80%;
+  margin: auto;
+  padding: 3px;
+  &__logo {
+    display: inline-block;
+    padding: 10px;
+    a {
+      color: #fff;
+    }
+  }
+  &__list {
+    float: right;
+  }
+  &__item {
+    display: inline-block;
+    padding: 10px;
+    a {
+      color: #fff;
+    }
+  }
+}
